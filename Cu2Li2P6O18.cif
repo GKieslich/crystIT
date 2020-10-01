@@ -1,0 +1,66 @@
+data_global
+_amcsd_formula_title 'Cu2 Li2 O18 P6'
+loop_
+_publ_author_name
+'Laugt M'
+'Durif A'
+_journal_name_full 'Acta Crystallographica, Section B'
+_journal_volume 30 
+_journal_year 1974
+_journal_page_first 2118
+_journal_page_last 2121
+_publ_section_title
+;
+ Structure cristalline de l'hexametaphosphate de cuivrelithium, Cu2Li2P6O18
+ _cod_database_code 1007028
+;
+_database_code_amcsd 0009512
+_chemical_formula_sum 'Cu P3 O9 Li'
+_chemical_formula_sum ''
+_cell_length_a 9.485
+_cell_length_b 9.419
+_cell_length_c 9.379
+_cell_angle_alpha 111.73
+_cell_angle_beta 106.25
+_cell_angle_gamma 106.80
+_cell_volume 670.956
+_exptl_crystal_density_diffrn      3.043
+_symmetry_space_group_name_H-M 'P -1'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1   0.21530   0.29355   0.09956
+Cu2   0.28215   0.22993   0.74299
+P1   0.64763   0.39524   0.00868
+P2   0.84434   0.21520   0.95098
+P3   0.92277   0.08589   0.18818
+P4   0.90004   0.14995   0.51624
+P5   0.70537   0.33580   0.57761
+P6   0.59043   0.43079   0.31515
+O1   0.80810   0.37840   0.01060
+O2   0.84360   0.17750   0.10280
+O3   0.92170   0.18060   0.36760
+O4   0.86360   0.30350   0.61040
+O5   0.70670   0.38870   0.43430
+O6   0.63220   0.36110   0.15720
+O7   0.50570   0.25510   0.84420
+O8   0.32530   0.42750   0.95900
+O9   0.00980   0.27160   0.95900
+O10   0.70600   0.07460   0.78660
+O11   0.19690   0.09750   0.90170
+O12   0.09280   0.13150   0.20900
+O13   0.24840   0.01490   0.55860
+O14   0.05410   0.17170   0.63580
+O15   0.25840   0.51660   0.26440
+O16   0.55640   0.17600   0.50660
+O17   0.35680   0.38370   0.60990
+O18   0.41750   0.31440   0.26250
+Li1   0.31560   0.16100   0.36260
+Li2   0.49960   0.06620   0.65460
+
