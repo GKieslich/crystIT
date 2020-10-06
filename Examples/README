@@ -1,5 +1,18 @@
-The origin of the cif files is given in the respective files. Files with an 'mp' in the name were obtained through the materials project*. We do not claim any ownership, 
-or intellectual property for these. The files only serve as an example for program function.
+As for the *.cif files, we do not claim any ownership, or intellectual property for these. The files only serve as an example for program function.
+The sources of the *.cif files are given below:
 
-* Materials Project: A. Jain*, S.P. Ong*, G. Hautier, W. Chen, W.D. Richards, S. Dacek, S. Cholia, D. Gunter, D. Skinner, G. Ceder, K.A. Persson 
+BaAl4, Cs2CuO2, Na2HgO2, SnF4 from
+Materials Project: A. Jain*, S.P. Ong*, G. Hautier, W. Chen, W.D. Richards, S. Dacek, S. Cholia, D. Gunter, D. Skinner, G. Ceder, K.A. Persson 
 The Materials Project: A materials genome approach to accelerating materials innovation (https://materialsproject.org/)
+
+BaTiO3,K2Cr2O7,K3C60,NaCl,PbTi0.65Zr0.35O3, SiO2, TiO2, YBa2Cu3O6.9 
+Crystallography Open Database (COD) http://www.crystallography.net/ with some entries provided by
+the American Mineralogist Crystal Structure Database http://rruff.geo.arizona.edu/AMS/amcsd.php
+Detailed references can be found in the *.cif files of the respective structures.
+
+Cu2Li2O18P6 
+Acta Cryst. B, 30, 1974, 30, 2118.
+
+Mo3Al2C
+Pierre Villars (Chief Editor), PAULING FILE in: Inorganic Solid Phases, SpringerMaterials (online database), Springer, Heidelberg (ed.)
+https://materials.springer.com/isp/crystallographic/docs/sd_0307293
