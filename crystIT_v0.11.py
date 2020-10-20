@@ -31,7 +31,7 @@ recursive = False                         # subdirectory scanning in batch mode
 # Program Information
 programName = 'crystIT'
 paper = 'Kaußler, Kieslich (2020): unpublished'
-versionNumber = '0.1'
+versionNumber = '0.11'
 releaseDate = '2020-09-22'
 authors = 'Clemens Kaußler and Gregor Kieslich'
 institution = 'Technical University of Munich'
