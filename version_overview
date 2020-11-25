@@ -1,3 +1,5 @@
 crystIT_v0.1          - first version
 
 crystIT_v0.11         - small fixes regarding the calculation of Icoord_max. 
+
+crystIT_v0.2          - updated implementation of Icoord, i.e. the way Icoord is calculated 
