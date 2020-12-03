@@ -78,7 +78,7 @@ Input int as maximum number of threads           (currently 12)
 's' to toggle entropy calculation                (currently False).
 'e' exit to main menu:</code></pre>
 					<ul>
-						<li>Input of a decimal number between zero and one changes <i>symprec</i> which defines the tolerance in cartesian coordinates for Spglib to find symmetry and simultaneously is the threshold cartesian coordinate value for identification of duplicate atom entries in the CIF: <code>|x′ − x| &lt; symprec</code>. Always use <code>.</code> as decimal separator to change <i>symprec</i>!</li>
+						<li>Input of a decimal number between zero and one changes <i>symprec</i> which defines the tolerance in cartesian coordinates for Spglib to find symmetry and simultaneously is the threshold cartesian coordinate value for identification of duplicate atom entries in the CIF: <code>|x′ − x| &lt; symprec</code>. Always use <code>.</code> as decimal separator to change <i>symprec</i>! This value should be adjusted in the event of wrong space-group assignement which can help in some cases; however, an error message is returned if the assignment in space-group discrepancy still exists.</li>
 						<li>The maximum number of threads for multiprocessing in batch mode is automatically set to the maximum number of available threads but can be adjusted by integer input.</li>
 						<li><code>d</code> toggles the decimal separator between dot and comma, especially useful for German Excel users.</li>
 						<li>The occupancy options, accessible by typing <code>o</code>, allow for on-the-fly occupancy editing in single file processing.</li>
