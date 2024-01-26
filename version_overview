@@ -5,3 +5,5 @@ crystIT_v0.11         - small fixes regarding the calculation of Icoord_max.
 crystIT_v0.2          - updated implementation of Icoord, i.e. the way Icoord is calculated 
 
 crystIT_v0.21         - slightly updated computational routine and updated references
+
+crystIT_v0.3          - updated calculation of I_comb with partial occupancies, updated entropy calculation
