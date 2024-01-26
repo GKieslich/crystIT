@@ -1,0 +1,12 @@
+Detailed overview of changes from version 0.2.1 to 0.3
+
+Combinatorial and Configurational Complexity:
+I_comb is now calculated by subtracting the mixing complexity instead of addition. By this the complexity may become negative, enabling a positive mixing entropy. 
+See Krivovichev 2022 (10.1180/mgm.2022.23) for more details. I_conf computation is changed accordingly. 
+
+Entropy Calculation:
+The computation of S_comb, S_coor, S_conf was removed as the error for crystal structures with average-sized unit cells was too large. 
+This error originates in the Stirling approximation which is used in deriving the entropy formula S = S_max - ln(2) * R * I  that uses the complexity value. 
+The error of this formula is less than 1% only if the multiplicity of every crystallographic orbit is equal or higher to 90. Direct calculation of S 
+using the crystallographic orbits in the Boltzmann equation yields the configurational entropy S_cfg. Partial occupancies are included by determination of S_mix using
+S_mix = R * ln(2) * I_comb_mix * PositionsPerReducedUnitCell. Addition of S_cfg and S_mix gives the entropy of the crystal per reduced unit cell.
